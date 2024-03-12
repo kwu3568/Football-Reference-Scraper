@@ -1,0 +1,70 @@
+body{
+	background-image: url("notepad.jpg");
+}
+#header{
+	white-space: nowrap;
+	text-align: center;
+	margin-top: 91px;
+	font-weight: bold;
+	font-family: "Helvetica";
+	height: 59px;
+	font-size: 63px;
+}
+#container{
+	text-align: center;
+	height: 25px;
+	margin-top: 10px;
+}
+#button{
+	background-color: #04AA6D;
+	border: none;
+  	color: white;
+	font-weight: bold;
+	font-size: 13px;
+	height: 75%;
+	vertical-align: middle;
+}
+#list{
+	text-align: center;
+	margin-top: 25px;
+}
+.items{
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Times New Roman";
+	margin: auto;
+	margin-top: 15px;
+	width: max-content;
+}
+#form{
+	height: 100%;
+}
+#input{
+	z-index: 1000; 
+	line-height: 100%;
+	vertical-align: middle;
+ }
+.content{
+ 	display: none;
+}
+.content .menu_button{
+ 	display: block;
+ }
+
+.items:hover .content{
+	display: block;
+}
+.items button:hover{
+	background-color: #ddd;
+}
+.menu_button{
+
+	background-color: #f1f1f1;
+ 	margin: auto;
+ 	border: none;
+ 	width: 50px;
+ }
+ #delete_button{
+ 	color: red;
+ 	font-weight: bold;
+ }
